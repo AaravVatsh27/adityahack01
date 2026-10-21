@@ -51,7 +51,7 @@
 | 20 | Roles and consent | 9 |
 | 21 | Privacy boundaries | 11 |
 
-Diagrams are PNGs in the repository root. The links below intentionally use root-relative paths so they render correctly on GitHub.
+Diagrams are PNGs in `docs/diagrams/`, with editable Graphviz sources in `docs/diagrams/src/`. The links below point to those paths so they render correctly on GitHub.
 
 ---
 
@@ -69,7 +69,7 @@ AquaSentinel runs **two independent paths** on one platform:
 
 The safety path never waits on the cloud. The compliance path never trusts AI.
 
-![Two independent paths](aq-01-two-paths.png)
+![Two independent paths](docs/diagrams/aq-01-two-paths.png)
 
 **Diagram 01.** The two paths share a platform but not a failure mode.
 
@@ -79,23 +79,23 @@ The safety path never waits on the cloud. The compliance path never trusts AI.
 
 ### 4.1 System context
 
-![System context](aq-02-system-context.png)
+![System context](docs/diagrams/aq-02-system-context.png)
 
 ### 4.2 Containers and modules
 
-![Container architecture](aq-03-container-architecture.png)
+![Container architecture](docs/diagrams/aq-03-container-architecture.png)
 
 ### 4.3 Pond node hardware
 
-![Pond node hardware](aq-04-hardware.png)
+![Pond node hardware](docs/diagrams/aq-04-hardware.png)
 
 ---
 
 ## 5. Edge safety: protecting the pond
 
-![Edge safety loop](aq-05-edge-loop.png)
+![Edge safety loop](docs/diagrams/aq-05-edge-loop.png)
 
-![Alert lifecycle](aq-06-alert-lifecycle.png)
+![Alert lifecycle](docs/diagrams/aq-06-alert-lifecycle.png)
 
 ---
 
@@ -103,21 +103,21 @@ The safety path never waits on the cloud. The compliance path never trusts AI.
 
 ### 6.1 From treatment to signed passport
 
-![Treatment logging to harvest clearance](aq-07-treatment-flow.png)
+![Treatment logging to harvest clearance](docs/diagrams/aq-07-treatment-flow.png)
 
 ### 6.2 The harvest gate
 
-![Harvest gate decision logic](aq-08-gate-logic.png)
+![Harvest gate decision logic](docs/diagrams/aq-08-gate-logic.png)
 
-![Harvest gate states](aq-09-gate-states.png)
+![Harvest gate states](docs/diagrams/aq-09-gate-states.png)
 
 ### 6.3 Rule packs
 
-![Rule packs](aq-10-rule-pack.png)
+![Rule packs](docs/diagrams/aq-10-rule-pack.png)
 
 ### 6.4 Certificate lifecycle
 
-![Certificate lifecycle](aq-11-certificate-lifecycle.png)
+![Certificate lifecycle](docs/diagrams/aq-11-certificate-lifecycle.png)
 
 ---
 
@@ -125,41 +125,41 @@ The safety path never waits on the cloud. The compliance path never trusts AI.
 
 ### 7.1 Lot lineage
 
-![Lot lineage](aq-12-lot-lineage.png)
+![Lot lineage](docs/diagrams/aq-12-lot-lineage.png)
 
 ### 7.2 What each claim is backed by
 
-![Evidence types](aq-13-evidence-types.png)
+![Evidence types](docs/diagrams/aq-13-evidence-types.png)
 
 ### 7.3 Invoice and inventory reconciliation
 
-![Invoice reconciliation](aq-14-invoice-reconciliation.png)
+![Invoice reconciliation](docs/diagrams/aq-14-invoice-reconciliation.png)
 
 ---
 
 ## 8. The event log
 
-![Sensor reading to event](aq-15-sensor-pipeline.png)
+![Sensor reading to event](docs/diagrams/aq-15-sensor-pipeline.png)
 
-![Event ingestion path](aq-16-ingestion.png)
+![Event ingestion path](docs/diagrams/aq-16-ingestion.png)
 
-![Event envelope and clocks](aq-17-event-envelope.png)
+![Event envelope and clocks](docs/diagrams/aq-17-event-envelope.png)
 
-![Hash chains and anchoring](aq-18-hash-chains.png)
+![Hash chains and anchoring](docs/diagrams/aq-18-hash-chains.png)
 
-![Offline sync](aq-19-offline-sync.png)
+![Offline sync](docs/diagrams/aq-19-offline-sync.png)
 
 ---
 
 ## 9. Who uses it
 
-![Roles and consent](aq-20-roles-consent.png)
+![Roles and consent](docs/diagrams/aq-20-roles-consent.png)
 
 ---
 
 ## 11. Security and privacy
 
-![Privacy boundaries](aq-21-privacy-boundaries.png)
+![Privacy boundaries](docs/diagrams/aq-21-privacy-boundaries.png)
 
 ---
 
